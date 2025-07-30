@@ -3,10 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-html, body{
-    overflow-x: hidden;
-    width: 100%;
-} 
+html,
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -474,6 +475,13 @@ input {
     right: 15px;
     font-size: 2rem;
   }
+.prevbtn, .nextbtn{
+  padding: 20px;
+}
+html, body{
+  overflow-x: hidden;
+  width: 100%;
+}
 }
 
 
@@ -499,6 +507,11 @@ input {
   .questions{
     height: 1100px;
   }
+  
+  html, body{
+   overflow-x: hidden;
+   width: 100%;
+  } 
 }
 
 
@@ -512,6 +525,10 @@ input {
     gap: 90px;
     align-items: center;
     text-align: center; 
+  }
+  html, body{
+    overflow-x: hidden;
+    width: 100%;
   }
   nav{
     padding: 20px 0;
@@ -548,6 +565,9 @@ input {
   .cards{
   min-width: 50%;
   }
+.faq1{
+  font-size: 1rem;
+}
   .button-left{
     margin: 0 0 0 -1rem;
   }
@@ -563,7 +583,7 @@ input {
     grid-template-columns: 1fr 1fr;
   }
   .question h2{
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   #modal-btn{
     right: 10px;
@@ -587,7 +607,13 @@ input {
     font-size: 1.2rem;
     padding: 1rem;
   }
-  
+  .faq1{
+  font-size: 0.9rem;
+  }
+  html, body{
+    overflow-x: hidden;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -601,6 +627,10 @@ input {
     width: 200px;
     font-size: 1rem;
   }
+  html, body{
+    overflow-x: hidden;
+    width: 100%;
+  }
   .button3{
     width: 137px;
     font-size: 1rem;
@@ -609,6 +639,9 @@ input {
   .improve h1, .story h2, .tools h2{
     font-size: 2rem;
   }
+  .faq1{
+  font-size: 0.9rem;
+}
   .testimonials-section h2{
     font-size: 1.5rem;
     font-weight: 900;
@@ -675,7 +708,16 @@ input {
   .button-left{
     margin: 0 0 0 -1rem;
   }
+  .faq1{
+  font-size: 0.9rem;
+  }
+  html, body{
+    overflow-x: hidden;
+    width: 100%;
+  }
 }
+
+
  @media (max-width: 375px) {
   .meditation h1{
     font-size: 1.5rem;
@@ -692,6 +734,13 @@ input {
     padding: 1rem;
     font-size: 0.8rem;
   }
+  html, body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .faq1{
+  font-size: 0.9rem;
+}
   .testimonials-section{
     height: 650px;
     width: 100%;
@@ -716,7 +765,13 @@ input {
     padding: 1rem;
     font-size: 0.9rem;
   }
-  
+  .faq1{
+  font-size: 0.9rem;
+ }
+ html, body{
+  overflow-x: hidden;
+  width: 100%;
+ }
 }
 
 @media (max-width: 320px) {
@@ -750,7 +805,17 @@ input {
     height: 640px;
     width: 100%;
   }
+  .faq1{
+  font-size: 0.8rem;
+  }
+  html, body{
+    overflow-x: hidden;
+    width: 100%;
+  }
   .Answers h2{
     font-size: 1rem;
+  }
+  .questions{
+    height: 1150px;
   }
 }

@@ -87,7 +87,7 @@ function toggleFaq(toggleItem) {
   const dropdown = document.getElementById(`faq-${toggleItem}`);
   const faqIcon = getDynamicIcon(toggleItem);
   
-  if (dropdown.style.height === "80px") {
+  if (dropdown.style.height === "90px") {
     dropdown.style.height = "0px";
     faqIcon.innerHTML = `<i class="fa-solid fa-chevron-down"></i>`;
     return;
@@ -101,7 +101,7 @@ function toggleFaq(toggleItem) {
     } 
   }
 
-    dropdown.style.height = "80px";
+    dropdown.style.height = "90px";
     faqIcon.innerHTML = `<i class="fa-solid fa-chevron-up"></i>`;
   }
 
