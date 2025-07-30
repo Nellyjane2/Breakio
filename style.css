@@ -469,9 +469,7 @@ input {
   }
   .button-right{
     margin: 0 4rem 0 0;
-
   }
-  
   #modal-btn{
     right: 15px;
     font-size: 2rem;
@@ -497,6 +495,9 @@ input {
   .button-right{
     margin: 0 -1rem 0 0;
 
+  }
+  .questions{
+    height: 1100px;
   }
 }
 
