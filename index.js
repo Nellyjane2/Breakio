@@ -29,7 +29,6 @@ window.addEventListener("DOMContentLoaded", () => {
       modalWrapper.style.display = "flex";
       nameInput.value = "";
 
-  
       document.documentElement.style.overflow = "hidden";
       document.body.style.overflow = "hidden";
     }
@@ -39,9 +38,9 @@ window.addEventListener("DOMContentLoaded", () => {
   modalBtn.addEventListener("click", (e) => {
     if (e.target.classList.contains("modal-overlay")) {
       modalWrapper.style.display = "none";
-
       document.documentElement.style.overflow = "auto";
       document.body.style.overflow = "auto";
+      
     }
   });
 
@@ -50,9 +49,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
     document.documentElement.style.overflow = "auto";
     document.body.style.overflow = "auto";
+    
+    document.documentElement.style.overflowx = "hidden";
+    document.body.style.overflowX = "hidden";
   });
 });
-
 
 
 
@@ -73,6 +74,8 @@ function toggleSideBar() {
   } else {
     document.documentElement.style.overflow = "auto";
     document.body.style.overflow = "auto";
+    document.documentElement.style.overflowX= "hidden";
+    document.body.style.overflowX = "hidden";
   }
 }
 

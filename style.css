@@ -3,11 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-html,
-body{
-  overflow-x: hidden;
-  width: 100%;
-}
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -208,7 +203,6 @@ input {
   text-align: center;
   height: 766px;
   align-items: center;
-  overflow-x: hidden;
 }
 .testimonial-box{
  display: flex;
@@ -217,7 +211,6 @@ input {
   min-width: 0;
   position: relative;
   justify-content: center;
-  overflow-x: hidden;
 }
 .carousel{
   display: flex;
@@ -263,7 +256,7 @@ input {
 .button-left{
   position: absolute;
   top: 50%;
-  left: 25rem;
+  left: 20rem;
   background: none;
   margin: 0;
   border-style: none;
@@ -278,7 +271,7 @@ input {
 .button-right{
   position: absolute;
   top: 50%;
-  right: 25rem;
+  right: 20rem;
   background: none;
   background-color: #ffff;
   margin: 0;
@@ -461,9 +454,15 @@ input {
   color: white;
 }
 
+
+html, body{
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
 @media (max-width: 1024px) {
   .cards{
-  min-width: 31%;
   }
   .testimonials-section{
     width: 100%;
@@ -496,6 +495,8 @@ input {
     align-items: center;
     text-align: center; 
   }
+  
+
   nav{
     padding: 20px 0;
   }
